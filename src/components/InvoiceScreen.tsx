@@ -56,10 +56,7 @@ const InvoiceScreen :React.FC<InvoiceScreenProps> = (props) => {
     <ScrollView>
       <View style={styles.container}>
         <View style={styles.container_todo}>
-          <Image
-            style={styles.image}
-            source={require('../assets/images/me.png')}
-          />
+          
           <Text style={styles.title}>React - Redux</Text>
           <View style={styles.todoInput}>
             <TextInput

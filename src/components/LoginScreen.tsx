@@ -44,8 +44,8 @@ const LoginScreen: React.FC<LoginsScreenProps> = (props) => {
         <View style={styles.containerTop}>
             <Image source={require('../assets/images/top_bg.jpg')}
                 style={{width: '100%', resizeMode: 'contain'}}/>
-            <View style={{alignItems:'center'}}>
-                
+            <View style={{alignItems:'center', justifyContent:'center'}}>
+                <Text>[ me ]</Text>
             </View>
 
         </View>
